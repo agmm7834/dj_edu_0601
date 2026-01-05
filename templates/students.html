@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <div class="page-title">O‘quvchilar</div>
+
+    <div class="filters">
+        <select>
+            <option>Status</option>
+            <option>ACTIVE</option>
+            <option>INACTIVE</option>
+            <option>FINISHED</option>
+        </select>
+        <input type="text" placeholder="Ism yoki telefon">
+    </div>
+
+    <div class="table-box">
+        <table>
+            <tr>
+                <th>Ism</th>
+                <th>Familiya</th>
+                <th>Telefon</th>
+                <th>Status</th>
+                <th>Sana</th>
+            </tr>
+            <tr>
+                <td>Ali</td>
+                <td>Karimov</td>
+                <td>+998901234567</td>
+                <td>ACTIVE</td>
+                <td>2024-09-01</td>
+            </tr>
+        </table>
+    </div>
+{% endblock %}

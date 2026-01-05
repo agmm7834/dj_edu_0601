@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <div class="page-title">Guruhlar</div>
+
+    <div class="filters">
+        <select>
+            <option>Dars kunlari</option>
+            <option>ODD</option>
+            <option>EVEN</option>
+        </select>
+        <select>
+            <option>Mentor</option>
+            <option>Akmal Ismoilov</option>
+        </select>
+    </div>
+
+    <div class="table-box">
+        <table>
+            <tr>
+                <th>Guruh</th>
+                <th>Kurs</th>
+                <th>Mentor</th>
+                <th>Dars kunlari</th>
+                <th>Sana</th>
+            </tr>
+            <tr>
+                <td>Python-01</td>
+                <td>Python</td>
+                <td>Akmal</td>
+                <td>ODD</td>
+                <td>2024-10-01</td>
+            </tr>
+        </table>
+    </div>
+{% endblock %}
